@@ -1,0 +1,174 @@
+
+
+/* ...........................................navigation */
+.navbar{
+    padding-bottom: 5%;
+}
+.nav-link{
+    margin: 0 10% 0 10%;
+}
+
+
+
+/* ..............................................title */
+#title{
+    background-color: #d32d51;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.rotate{
+    width:25%;
+    transform: rotate(10deg);
+    margin-left: 10%;
+    position: absolute;
+}
+@media (max-width:1050px) {
+    .rotate{
+        transform: rotate(0);
+        position: static;
+        margin: 0;
+        width:75%;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    
+}
+
+/* ......................................Download Butoons */
+.download-btn{
+    margin: 7% 1% 20% 0;
+}
+
+
+
+
+/* ............................................features */
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: white;
+
+}
+.feature-icons{
+    font-size: 70px;
+    color: #d32d51;
+    margin-bottom: 1rem;
+}
+.feature-icons:hover{
+    color: rgb(255, 0, 85);
+}
+.col-lg-4{
+    text-align: center;
+    padding: 5% ;
+}
+
+
+/* .........................................testimonials */
+#testimonials{
+    
+    background-color: #d32d51;
+    text-align: center;
+}
+.carousel-inner{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 100px;
+    border-radius: 100%;
+    margin: 20px 20px 0;
+}
+
+#press{
+    padding: 0 15% 7%;
+    background-color: #d32d51;
+    text-align: center;
+}
+.press-logo{
+    margin:20px;
+    width: 20%;
+}
+em{
+    color: white;
+    font-family: "Montserrat";
+}
+
+
+/* ...........................................pricing */
+#pricing{
+    font-family: Montserrat;
+    padding: 7% 15%;
+    text-align: center;
+}
+.pricing-header{
+    color: black;
+}
+.pricing-h2{
+    color:black;
+}
+
+/* ........................................call to action */
+#cta{
+    background-color: #d32d51;
+    text-align: center;
+    padding: 7% 15%;
+}
+.download-btn-foot{
+    margin: 0 1%;
+}
+#footer-title{
+    color: white;
+    font-family: 'Monsterrat-Black';
+    font-size: 3rem;
+    margin-bottom: 4%;
+}
+
+
+/* ............................................footer */
+#footer{
+    padding: 7% 15% 3%;
+    text-align: center;
+
+}
+.social-icons{
+    padding: 1%;
+}
+.footer-icons{
+    margin: 0 2% 0;
+}
+
+
+
+/* ...........................................others */
+h1{
+    color: white;
+    font-family: 'Ubuntu-black', sans-serif;
+    margin-top: 3%;
+    
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    color:white;
+    font-family: 'Monsterrat-Bold';
+    font-weight: 700;
+    font-size: 3rem;
+}
+h3{
+    font-weight: 800;
+    font-weight: 1.5rem;  
+    font-family: 'Monsterrat-Bold'  
+}
+
+body{
+    font-family: "Montserrat";
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
